@@ -105,7 +105,7 @@ type (
 	}
 	AlertNotification struct {
 		ID int `json:"id,omitempty"`
-		UID int `json:"uid,omitempty"`
+		UID string `json:"uid,omitempty"`
 	}
 	Alert struct {
 		Conditions          []AlertCondition    `json:"conditions,omitempty"`
